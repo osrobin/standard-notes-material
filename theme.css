@@ -1,6 +1,9 @@
 /* Material Android Dark Theme for Standard Notes */
 /* Based on Material Design 3 (Material You) dark mode principles */
 
+/* Import Google Sans fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&family=Google+Sans+Text:wght@400;500&display=swap');
+
 :root {
   /* Typography - Roboto is the Android default */
   --sn-stylekit-base-font-size: 14px;
@@ -77,9 +80,9 @@
   /* Material Design border radius (4dp is standard) */
   --sn-stylekit-general-border-radius: 4px;
   
-  /* Fonts */
+  /* Fonts - Google Sans is now the modern Android font */
   --sn-stylekit-monospace-font: 'Roboto Mono', 'Courier New', monospace;
-  --sn-stylekit-sans-serif-font: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
+  --sn-stylekit-sans-serif-font: 'Google Sans Text', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
   
   /* Material Design Grey Scale for Dark Mode */
   --sn-stylekit-grey-1: #757575;
@@ -166,5 +169,5 @@
 
 /* Additional Material Design styling */
 body {
-  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif !important;
+  font-family: 'Google Sans Text', 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif !important;
 }
