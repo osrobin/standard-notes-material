@@ -1,15 +1,18 @@
 {
-  "identifier": "com.yourusername.material-android-theme",
+  "identifier": "com.osrobin.material-android-theme",
   "name": "Material Android",
   "content_type": "SN|Theme",
   "area": "themes",
   "version": "1.0.0",
   "description": "A Material Design theme inspired by Android",
-  "url": "https://osrobin.github.io/standard-notes-material/theme.css",
+  "url": "https://cdn.jsdelivr.net/gh/osrobin/standard-notes-material@main/theme.css",
+  "download_url": "https://github.com/osrobin/standard-notes-material/archive/refs/heads/main.zip",
+  "latest_url": "https://cdn.jsdelivr.net/gh/osrobin/standard-notes-material@main/ext.json",
   "dock_icon": {
     "type": "circle",
     "background_color": "#1976D2",
     "foreground_color": "#FFFFFF",
     "border_color": "#1976D2"
-  }
+  },
+  "statusBar": "dark-content"
 }
