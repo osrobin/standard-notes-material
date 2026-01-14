@@ -1,5 +1,5 @@
-/* Material Android Theme for Standard Notes */
-/* Based on Material Design 3 (Material You) principles */
+/* Material Android Dark Theme for Standard Notes */
+/* Based on Material Design 3 (Material You) dark mode principles */
 
 :root {
   /* Typography - Roboto is the Android default */
@@ -15,62 +15,64 @@
   --sn-stylekit-font-size-h2: 1.429rem;
   --sn-stylekit-font-size-h1: 1.714rem;
   
-  /* Material Design Color Palette */
-  --sn-stylekit-neutral-color: #6E6E6E;
-  --sn-stylekit-neutral-contrast-color: #FFFFFF;
+  /* Material Design Dark Color Palette */
+  --sn-stylekit-neutral-color: #B0B0B0;
+  --sn-stylekit-neutral-contrast-color: #121212;
   
-  /* Primary Blue - Material You accent */
-  --sn-stylekit-info-color: #1976D2;
-  --sn-stylekit-info-contrast-color: #FFFFFF;
-  --sn-stylekit-info-backdrop-color: #E3F2FD;
+  /* Primary Blue - Material You accent (lighter for dark mode) */
+  --sn-stylekit-info-color: #90CAF9;
+  --sn-stylekit-info-contrast-color: #121212;
+  --sn-stylekit-info-backdrop-color: #1A2332;
+  --sn-stylekit-info-color-darkened: #0D47A1;
   
   /* Success Green */
-  --sn-stylekit-success-color: #388E3C;
-  --sn-stylekit-success-contrast-color: #FFFFFF;
+  --sn-stylekit-success-color: #81C784;
+  --sn-stylekit-success-contrast-color: #121212;
   
   /* Warning Amber */
-  --sn-stylekit-warning-color: #F57C00;
-  --sn-stylekit-warning-contrast-color: #000000;
+  --sn-stylekit-warning-color: #FFB74D;
+  --sn-stylekit-warning-contrast-color: #121212;
   
   /* Error Red */
-  --sn-stylekit-danger-color: #D32F2F;
-  --sn-stylekit-danger-contrast-color: #FFFFFF;
+  --sn-stylekit-danger-color: #E57373;
+  --sn-stylekit-danger-contrast-color: #121212;
   
-  /* Surface Colors - Material Design light theme */
-  --sn-stylekit-shadow-color: rgba(0, 0, 0, 0.12);
-  --sn-stylekit-background-color: #FAFAFA;
-  --sn-stylekit-border-color: #E0E0E0;
-  --sn-stylekit-foreground-color: #212121;
+  /* Surface Colors - Material Design dark theme */
+  --sn-stylekit-shadow-color: rgba(0, 0, 0, 0.4);
+  --sn-stylekit-background-color: #121212;
+  --sn-stylekit-border-color: #2C2C2C;
+  --sn-stylekit-foreground-color: #E0E0E0;
   
-  /* Surface variant */
-  --sn-stylekit-contrast-background-color: #FFFFFF;
-  --sn-stylekit-contrast-foreground-color: #212121;
-  --sn-stylekit-contrast-border-color: #E0E0E0;
   
-  /* Secondary surface (Elevation 1) */
-  --sn-stylekit-secondary-background-color: #F5F5F5;
-  --sn-stylekit-secondary-foreground-color: #424242;
-  --sn-stylekit-secondary-border-color: #BDBDBD;
+  /* Surface variant (Elevation 1) */
+  --sn-stylekit-contrast-background-color: #1E1E1E;
+  --sn-stylekit-contrast-foreground-color: #E0E0E0;
+  --sn-stylekit-contrast-border-color: #2C2C2C;
   
-  /* Elevated surface (Elevation 2) */
-  --sn-stylekit-secondary-contrast-background-color: #EEEEEE;
-  --sn-stylekit-secondary-contrast-foreground-color: #424242;
-  --sn-stylekit-secondary-contrast-border-color: #9E9E9E;
+  /* Secondary surface (Elevation 2) */
+  --sn-stylekit-secondary-background-color: #1A1A1A;
+  --sn-stylekit-secondary-foreground-color: #E0E0E0;
+  --sn-stylekit-secondary-border-color: #2C2C2C;
+  
+  /* Elevated surface (Elevation 3) */
+  --sn-stylekit-secondary-contrast-background-color: #242424;
+  --sn-stylekit-secondary-contrast-foreground-color: #E0E0E0;
+  --sn-stylekit-secondary-contrast-border-color: #3C3C3C;
   
   /* Editor colors */
-  --sn-stylekit-editor-background-color: #FFFFFF;
-  --sn-stylekit-editor-foreground-color: #212121;
+  --sn-stylekit-editor-background-color: #1E1E1E;
+  --sn-stylekit-editor-foreground-color: #E0E0E0;
   
   /* Text colors */
-  --sn-stylekit-paragraph-text-color: #424242;
+  --sn-stylekit-paragraph-text-color: #CCCCCC;
   
   /* Form controls */
-  --sn-stylekit-input-placeholder-color: #9E9E9E;
-  --sn-stylekit-input-border-color: #BDBDBD;
+  --sn-stylekit-input-placeholder-color: #757575;
+  --sn-stylekit-input-border-color: #3C3C3C;
   
   /* Scrollbar */
-  --sn-stylekit-scrollbar-thumb-color: #BDBDBD;
-  --sn-stylekit-scrollbar-track-border-color: #E0E0E0;
+  --sn-stylekit-scrollbar-thumb-color: #424242;
+  --sn-stylekit-scrollbar-track-border-color: #2C2C2C;
   
   /* Material Design border radius (4dp is standard) */
   --sn-stylekit-general-border-radius: 4px;
@@ -79,74 +81,90 @@
   --sn-stylekit-monospace-font: 'Roboto Mono', 'Courier New', monospace;
   --sn-stylekit-sans-serif-font: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif;
   
-  /* Material Design Grey Scale */
+  /* Material Design Grey Scale for Dark Mode */
   --sn-stylekit-grey-1: #757575;
-  --sn-stylekit-grey-2: #BDBDBD;
-  --sn-stylekit-grey-3: #E0E0E0;
-  --sn-stylekit-grey-4: #EEEEEE;
-  --sn-stylekit-grey-4-opacity-variant: rgba(189, 189, 189, 0.24);
-  --sn-stylekit-grey-5: #F5F5F5;
-  --sn-stylekit-grey-6: #FAFAFA;
+  --sn-stylekit-grey-2: #616161;
+  --sn-stylekit-grey-3: #424242;
+  --sn-stylekit-grey-4: #303030;
+  --sn-stylekit-grey-4-opacity-variant: rgba(66, 66, 66, 0.24);
+  --sn-stylekit-grey-5: #212121;
+  --sn-stylekit-grey-6: #121212;
   
-  /* Material Design Accessory Colors (Material You palette) */
-  --sn-stylekit-accessory-tint-color-1: #1976D2; /* Blue */
-  --sn-stylekit-accessory-tint-color-2: #E91E63; /* Pink */
-  --sn-stylekit-accessory-tint-color-3: #FFC107; /* Amber */
-  --sn-stylekit-accessory-tint-color-4: #673AB7; /* Deep Purple */
-  --sn-stylekit-accessory-tint-color-5: #009688; /* Teal */
-  --sn-stylekit-accessory-tint-color-6: #FF5722; /* Deep Orange */
+  /* Material Design Accessory Colors (Material You palette - adjusted for dark mode) */
+  --sn-stylekit-accessory-tint-color-1: #90CAF9; /* Light Blue */
+  --sn-stylekit-accessory-tint-color-2: #F48FB1; /* Light Pink */
+  --sn-stylekit-accessory-tint-color-3: #FFD54F; /* Light Amber */
+  --sn-stylekit-accessory-tint-color-4: #B39DDB; /* Light Purple */
+  --sn-stylekit-accessory-tint-color-5: #80CBC4; /* Light Teal */
+  --sn-stylekit-accessory-tint-color-6: #FF8A65; /* Light Deep Orange */
+  
+  /* Passive colors for various UI elements */
+  --sn-stylekit-passive-color-0: var(--sn-stylekit-neutral-color);
+  --sn-stylekit-passive-color-2: var(--sn-stylekit-info-color);
+  --sn-stylekit-passive-color-3: var(--sn-stylekit-contrast-border-color);
+  --sn-stylekit-passive-color-4: var(--sn-stylekit-secondary-background-color);
+  --sn-stylekit-passive-color-4-opacity-variant: rgba(26, 26, 26, 0.6);
+  --sn-stylekit-passive-color-5: var(--sn-stylekit-secondary-background-color);
   
   /* Optional Material Design specific overrides */
-  --modal-background-color: #FFFFFF;
+  --modal-background-color: #1E1E1E;
   
   /* Editor */
-  --editor-header-bar-background-color: #FFFFFF;
-  --editor-background-color: #FFFFFF;
-  --editor-foreground-color: #212121;
-  --editor-title-bar-border-bottom-color: #E0E0E0;
-  --editor-title-input-color: #212121;
-  --editor-pane-background-color: #FAFAFA;
-  --editor-pane-editor-background-color: #FFFFFF;
-  --editor-pane-editor-foreground-color: #212121;
-  --editor-pane-component-stack-item-background-color: #FFFFFF;
+  --editor-header-bar-background-color: #1E1E1E;
+  --editor-background-color: #1E1E1E;
+  --editor-foreground-color: #E0E0E0;
+  --editor-title-bar-border-bottom-color: #2C2C2C;
+  --editor-title-input-color: #E0E0E0;
+  --editor-pane-background-color: #121212;
+  --editor-pane-editor-background-color: #1E1E1E;
+  --editor-pane-editor-foreground-color: #E0E0E0;
+  --editor-pane-component-stack-item-background-color: #1E1E1E;
   
   /* Text selection - Material accent color */
-  --text-selection-color: #FFFFFF;
-  --text-selection-background-color: #1976D2;
+  --text-selection-color: #121212;
+  --text-selection-background-color: #90CAF9;
   
   /* Note preview */
-  --note-preview-progress-color: #1976D2;
-  --note-preview-progress-background-color: rgba(25, 118, 210, 0.12);
+  --note-preview-progress-color: #90CAF9;
+  --note-preview-progress-background-color: rgba(144, 202, 249, 0.15);
   
-  --note-preview-selected-progress-color: #FFFFFF;
-  --note-preview-selected-progress-background-color: rgba(25, 118, 210, 0.24);
+  --note-preview-selected-progress-color: #1E1E1E;
+  --note-preview-selected-progress-background-color: rgba(144, 202, 249, 0.3);
   
   /* Items column */
-  --items-column-background-color: #FAFAFA;
-  --items-column-items-background-color: #FFFFFF;
-  --items-column-border-left-color: #E0E0E0;
-  --items-column-border-right-color: #E0E0E0;
-  --items-column-search-background-color: #F5F5F5;
-  --item-cell-selected-background-color: #E3F2FD;
-  --item-cell-selected-border-left-color: #1976D2;
+  --items-column-background-color: #121212;
+  --items-column-items-background-color: #1E1E1E;
+  --items-column-border-left-color: #2C2C2C;
+  --items-column-border-right-color: #2C2C2C;
+  --items-column-search-background-color: #1A1A1A;
+  --item-cell-selected-background-color: #1A2332;
+  --item-cell-selected-border-left-color: #90CAF9;
   
   /* Navigation */
-  --navigation-column-background-color: #F5F5F5;
-  --navigation-section-title-color: #757575;
-  --navigation-item-text-color: #424242;
-  --navigation-item-count-color: #9E9E9E;
-  --navigation-item-selected-background-color: #E3F2FD;
+  --navigation-column-background-color: #1A1A1A;
+  --navigation-section-title-color: #B0B0B0;
+  --navigation-item-text-color: #E0E0E0;
+  --navigation-item-count-color: #757575;
+  --navigation-item-selected-background-color: #1A2332;
   
   /* Preferences */
-  --preferences-navigation-icon-color: #757575;
-  --preferences-navigation-selected-background-color: #E3F2FD;
+  --preferences-navigation-icon-color: #B0B0B0;
+  --preferences-navigation-selected-background-color: #1A2332;
   
   /* Dropdown */
-  --dropdown-menu-radio-button-inactive-color: #BDBDBD;
+  --dropdown-menu-radio-button-inactive-color: #424242;
   
   /* Panel resizer */
-  --panel-resizer-background-color: #EEEEEE;
+  --panel-resizer-background-color: #242424;
   
   /* Links */
-  --link-element-color: #1976D2;
+  --link-element-color: #90CAF9;
+  
+  /* CRITICAL: Tell Standard Notes this is a dark theme */
+  --sn-stylekit-theme-type: dark;
+}
+
+/* Additional Material Design styling */
+body {
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Helvetica Neue', sans-serif !important;
 }
