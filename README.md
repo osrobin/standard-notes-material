@@ -2,7 +2,7 @@
 
 A clean **Material-inspired dark theme** for **Standard Notes** that gives your editor a modern, easy-on-the-eyes look.
 
-This theme works as a third-party Standard Notes extension. You can import it straight into the app and activate it like any other theme. :contentReference[oaicite:0]{index=0}
+This theme works on mobile phone and desktop.
 
 ---
 
