@@ -11,7 +11,6 @@ This theme works on mobile phone and desktop.
 **Desktop / Web app**
 
 1. Open **Standard Notes**.
-2. Go to **Extensions**.
-3. Click **Import Extension**.
-4. Paste this URL: https://osrobin.github.io/standard-notes-material/ext.json
+2. Go to **Plugins**.
+4. Paste this URL under Install Custom Plugin and click install: https://osrobin.github.io/standard-notes-material/ext.json
 
