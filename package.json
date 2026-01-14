@@ -1,0 +1,11 @@
+{
+  "name": "standard-notes-material",
+  "version": "1.0.0",
+  "sn": {
+    "main": "theme.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/osrobin/standard-notes-material.git"
+  }
+}
