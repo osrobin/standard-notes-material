@@ -1,0 +1,15 @@
+{
+  "identifier": "com.yourusername.material-android-theme",
+  "name": "Material Android",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "A Material Design theme inspired by Android",
+  "url": "path-to-your-css-file.css",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#1976D2",
+    "foreground_color": "#FFFFFF",
+    "border_color": "#1976D2"
+  }
+}
