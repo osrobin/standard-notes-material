@@ -6,7 +6,7 @@ This theme works on both desktop and mobile versions of Standard Notes.
 
 ## Preview
 
-![Preview](material.png)
+![Preview](materialui.png)
 
 ## Installation
 
