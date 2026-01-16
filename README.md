@@ -6,7 +6,7 @@ This theme works on both desktop and mobile versions of Standard Notes. ([GitHub
 
 ## Preview
 
-*(Add a screenshot here if you want)*
+*(Coming soon)*
 
 ## Installation
 
