@@ -2,7 +2,7 @@
 
 A dark, Material-inspired theme for Standard Notes that gives the UI a modern, easy-on-the-eyes look.
 
-This theme works on both desktop and mobile versions of Standard Notes. ([GitHub][1])
+This theme works on both desktop and mobile versions of Standard Notes.
 
 ## Preview
 
@@ -19,11 +19,11 @@ https://osrobin.github.io/standard-notes-material/ext.json
 ```
 
 4. Click **Install** when prompted.
-5. Activate the theme from the **Extensions** or **Appearance** section. ([GitHub][1])
+5. Activate the theme from the **Extensions** or **Appearance** section.
 
 ## About
 
-This is a simple CSS theme that overrides Standard Notes defaults with Material UI inspired colors and styles. It’s fully open source and works wherever Standard Notes supports custom themes. ([GitHub][1])
+This is a simple CSS theme that overrides Standard Notes defaults with Material UI inspired colors and styles. It’s fully open source and works wherever Standard Notes supports custom themes.
 
 ## Included Files
 
@@ -51,7 +51,7 @@ If you want to tweak the theme:
 
 ## License
 
-*(Add license info if needed, or remove this section)*
+*MIT License - Feel free to use and modify!*
 
 ## Contributing
 
